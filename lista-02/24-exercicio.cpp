@@ -7,13 +7,13 @@ int main(int argc, char const *argv[])
   float preco = 0, aumento = 0, novoPreco = 0, valorComImposto = 0;
   std::string msg;
 
-  std::cout << "Digite o valor do produto R$ ";
+  std::cout << "Valor produto R$ ";
   std::cin >> preco;
 
   if (preco != 0 && preco <= 25)
   {
-    std::cout << "\n1-Limpeza\n2-Alimentacao\n3-Vestiario\n";
-    std::cout << "Entre com o numero da categoria: ";
+    std::cout << "\nCategorias\n1-Limpeza\n2-Alimentação\n3-Vestiário\n";
+    std::cout << "Número da categoria: ";
     std::cin >> categoria;
     std::cout << "\nR-Produtos necessitam de refrigeracao.\nN-Produtos nao necessita de refrigeracao.\n";
     std::cout << "Entre com a situacao: ";
@@ -33,16 +33,16 @@ int main(int argc, char const *argv[])
     }
     else
     {
-      std::cout << "Categoria invalida!\n";
+      std::cout << "Categoria inválida!\n";
     }
   }
   else if (preco > 25)
   {
-    std::cout << "\n1-Limpeza\n2-Alimentacao\n3-Vestiario\n";
-    std::cout << "Entre com o numero da categoria: ";
+    std::cout << "\nCategorias\n1-Limpeza\n2-Alimentação\n3-Vestiario\n";
+    std::cout << "Número da categoria: ";
     std::cin >> categoria;
-    std::cout << "\nR-Produtos necessitam de refrigeracao.\nN-Produtos nao necessita de refrigeracao.\n";
-    std::cout << "Entre com a situacao: ";
+    std::cout << "\nR-Produtos necessitam de refrigeração.\nN-Produto não necessita de refrigeração.\n";
+    std::cout << "Entre com a situação: ";
     std::cin >> situacao;
 
     if (categoria == 1)
@@ -82,15 +82,15 @@ int main(int argc, char const *argv[])
 
   if (valorComImposto <= 50)
   {
-    msg = "Classificacao => BARATO";
+    msg = "Classificação => BARATO";
   }
   else if (valorComImposto < 120)
   {
-    msg = "Classificacao => NORMAL";
+    msg = "Classificação => NORMAL";
   }
   else
   {
-    msg = "Classificacao => CARO";
+    msg = "Classificação => CARO";
   }
 
   std::cout << msg << "\n";

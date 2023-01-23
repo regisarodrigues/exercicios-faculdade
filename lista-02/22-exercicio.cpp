@@ -6,9 +6,9 @@ int main(int argc, char const *argv[])
   int idade = 0, grauRisco = 0;
   float peso = 0;
 
-  std::cout << "Digite a sua idade: ";
+  std::cout << "Digite a idade: ";
   std::cin >> idade;
-  std::cout << "Digite o seu peso: ";
+  std::cout << "Digite o peso: ";
   std::cin >> peso;
 
   if (idade > 0 && idade < 20)
@@ -82,7 +82,7 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    std::cout << "Peso ou idade invalido(s)!" << std::endl;
+    std::cout << "Peso ou idade inválido(s)!" << std::endl;
   }
 
   return 0;

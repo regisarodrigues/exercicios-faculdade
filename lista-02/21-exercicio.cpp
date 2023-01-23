@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
   int codigo;
   std::string regiao;
 
-  std::cout << "Digite o codigo do produto: ";
+  std::cout << "Código produto: ";
   std::cin >> codigo;
 
   if (codigo == 1)
@@ -38,10 +38,10 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    regiao = "invalida!";
+    regiao = "inválida!";
   }
 
-  std::cout << "Regiao " << regiao << std::endl;
+  std::cout << "Região " << regiao << std::endl;
 
   return 0;
 }

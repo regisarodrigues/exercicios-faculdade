@@ -4,15 +4,14 @@ int main(int argc, char const *argv[])
 {
   double num1 = 0, num2 = 0;
   double result = 0;
-  cout << "Digite primero numero: ";
+  cout << "Primero número: ";
   cin >> num1;
-  cout << "Digite o segundo numero: ";
+  cout << "Segundo número: ";
   cin >> num2;
 
   if (num2 == 0)
   {
-    cout << "O segundo numero nao pode ser zero! \n";
-    /* code */
+    cout << "O segundo número não pode ser zero! \n";
   }
   else
   {

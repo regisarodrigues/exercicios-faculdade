@@ -4,11 +4,11 @@ int main(int argc, char const *argv[])
 {
   int numero1 = 0, numero2 = 0, numero3 = 0, resultado = 0;
 
-  cout << "Digite primerio numero: ";
+  cout << "Primerio número: ";
   cin >> numero1;
-  cout << "Digite segundo numero: ";
+  cout << "Segundo número: ";
   cin >> numero2;
-  cout << "Digite terceiro numero: ";
+  cout << "Terceiro número: ";
   cin >> numero3;
 
   resultado = numero1 * numero2 * numero3;

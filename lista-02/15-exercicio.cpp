@@ -7,8 +7,8 @@ int main(int argc, char const *argv[])
 
   std::cout << "Valor a ser investido R$ ";
   std::cin >> valInvestimento;
-  std::cout << "\n1- Poupanca.\n2- Fundo de renda fixa.\n";
-  std::cout << "Escolha uma opcao :";
+  std::cout << "\n1- Poupança.\n2- Fundo de renda fixa.\n";
+  std::cout << "Escolha uma opção :";
   std::cin >> opcao;
 
   switch (opcao)
@@ -21,11 +21,11 @@ int main(int argc, char const *argv[])
     break;
 
   default:
-    std::cout << "Opcao invalida!";
+    std::cout << "Opção inválida!";
     break;
   }
 
-  std::cout << "Valor final do mes R$ " << valor << std::endl;
+  std::cout << "Valor no final do mês R$ " << valor << std::endl;
 
   return 0;
 }

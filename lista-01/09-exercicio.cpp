@@ -5,17 +5,17 @@ int main(int argc, char const *argv[])
 {
   float area = 0, baseMaior = 0, baseMenor = 0, altura = 0;
 
-  std::cout << "=====CALCULO AREA DO TRAPEZIO===== \n\n";
-  std::cout << "Valor da base maior: ";
+  std::cout << "=====CALCULO ÁREA DO TRAPEZIO===== \n\n";
+  std::cout << "Valor base maior: ";
   std::cin >> baseMaior;
-  std::cout << "Valor da base menor: ";
+  std::cout << "Valor base menor: ";
   std::cin >> baseMenor;
-  std::cout << "Valor da altura: ";
+  std::cout << "Valor altura: ";
   std::cin >> altura;
 
   area = ((baseMaior + baseMenor) * altura) / 2;
 
-  std::cout << std::fixed << std::setprecision(2) << "Area do trapezio e: " << area << "\n";
+  std::cout << std::fixed << std::setprecision(2) << "Área do trapézio: " << area << "\n";
 
   return 0;
 }

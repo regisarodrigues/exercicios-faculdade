@@ -6,9 +6,9 @@ int main(int argc, char const *argv[])
   int codigo = 0, qtd = 0, precoUnit = 0;
   float totalNota = 0, desconto = 0, valDesconto = 0, valFinalNota = 0;
 
-  std::cout << "Informe o codigo do produto: ";
+  std::cout << "Código produto: ";
   std::cin >> codigo;
-  std::cout << "Informe a quantidade de produto: ";
+  std::cout << "Quantidade produto: ";
   std::cin >> qtd;
 
   if (codigo >= 1 && codigo <= 10)
@@ -52,14 +52,14 @@ int main(int argc, char const *argv[])
 
   if (precoUnit != 0)
   {
-    std::cout << std::fixed << std::setprecision(2) << "Preco unitario do produto R$ " << precoUnit << std::endl;
-    std::cout << std::fixed << std::setprecision(2) << "Total da nota R$ " << totalNota << std::endl;
-    std::cout << std::fixed << std::setprecision(2) << "Valor do desconto R$ " << valDesconto << std::endl;
-    std::cout << std::fixed << std::setprecision(2) << "Preco final da nota R$ " << valFinalNota << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << "Preço unitário R$ " << precoUnit << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << "Total nota R$ " << totalNota << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << "Valor desconto R$ " << valDesconto << std::endl;
+    std::cout << std::fixed << std::setprecision(2) << "Total final da nota R$ " << valFinalNota << std::endl;
   }
   else
   {
-    std::cout << "Codigo produto inválido!" << std::endl;
+    std::cout << "Código produto inválido!" << std::endl;
   }
 
   return 0;

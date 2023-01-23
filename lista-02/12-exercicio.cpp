@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
   float salario = 0, salNovo = 0;
 
-  std::cout << "Salario bruto R$ ";
+  std::cout << "Salário bruto R$ ";
   std::cin >> salario;
 
   if (salario <= 350)
@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
     salNovo = (salario + 35) * 0.93;
   }
 
-  std::cout << std::fixed << std::setprecision(2) << "Salario liquido R$ " << salNovo << std::endl;
+  std::cout << std::fixed << std::setprecision(2) << "Salário líquido R$ " << salNovo << std::endl;
 
   return 0;
 }

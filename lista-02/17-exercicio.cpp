@@ -6,9 +6,9 @@ int main(int argc, char const *argv[])
   std::string username;
 
   std::cout << "************Login************" << std::endl;
-  std::cout << "Informe o usuario: ";
+  std::cout << "Usuário: ";
   std::cin >> username;
-  std::cout << "Digite a senha: ";
+  std::cout << "Senha: ";
   std::cin >> senha;
 
   if (senha == 4531)
@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    std::cout << "Senha invalida!" << std::endl;
+    std::cout << "Senha inválida!" << std::endl;
   }
 
   return 0;

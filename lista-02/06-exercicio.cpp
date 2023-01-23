@@ -6,12 +6,12 @@ int main(int argc, char const *argv[])
   float num = 0, num2 = 0;
   char opcao;
 
-  std::cout << "Digite primero numero: ";
+  std::cout << "Primero número: ";
   std::cin >> num;
-  std::cout << "Digite o segundo numero: ";
+  std::cout << "Segundo número: ";
   std::cin >> num2;
 
-  std::cout << "\na- primeiro numero elevado pelo segundo\nb- raiz quadrada de cada numero\nc- raiz cubica de cada numero\n\n";
+  std::cout << "\na- primeiro número elevado pelo segundo\nb- raiz quadrada de cada número\nc- raiz cubica de cada número\n\n";
   std::cout << "Sua escolha: ";
   std::cin >> opcao;
 
@@ -34,7 +34,7 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    std::cout << "Opcao invalida!" << std::endl;
+    std::cout << "Opção inválida!" << std::endl;
   }
 
   return 0;

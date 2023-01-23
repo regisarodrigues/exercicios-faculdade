@@ -17,11 +17,11 @@ int main()
 
   if (media >= 7)
   {
-    std::cout << "Aluno com media " << media << " => APROVADO!" << std::endl;
+    std::cout << "Aluno com média " << media << " => APROVADO!" << std::endl;
   }
   else
   {
-    std::cout << "Aluno com media " << media << " => REPROVADO!" << std::endl;
+    std::cout << "Aluno com média " << media << " => REPROVADO!" << std::endl;
   }
 
   return 0;

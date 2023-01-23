@@ -4,7 +4,7 @@ int main(int argc, char const *argv[])
 {
   float salario = 0, novoSalario = 0;
 
-  std::cout << "Salario funcionario R$ ";
+  std::cout << "Salário funcionário R$ ";
   std::cin >> salario;
 
   if (salario <= 300)
@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     novoSalario = salario * 1.05;
   }
 
-  std::cout << "Valor novo salario R$ " << novoSalario << std::endl;
+  std::cout << "Valor novo salário R$ " << novoSalario << std::endl;
 
   return 0;
 }

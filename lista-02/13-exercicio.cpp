@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
   float preco = 0, novoPreco = 0;
   std::string classificacao = "";
 
-  std::cout << "Valor do produto R$ ";
+  std::cout << "Valor produto R$ ";
   std::cin >> preco;
 
   if (preco < 50)
@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
     classificacao = "Muito caro.";
   }
 
-  std::cout << "\nNovo preco R$ " << novoPreco << "\nClassificacao => " << classificacao << std::endl;
+  std::cout << "\nNovo preço R$ " << novoPreco << "\nClassificação => " << classificacao << std::endl;
 
   return 0;
 }

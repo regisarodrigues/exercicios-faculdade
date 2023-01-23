@@ -13,19 +13,19 @@ int main(int argc, char const *argv[])
 
   if (media >= 0 && media < 3)
   {
-    std::cout << "Aluno com media " << media << " => REPROVADO!" << std::endl;
+    std::cout << "Aluno com média " << media << " => REPROVADO!" << std::endl;
   }
   else if (media >= 3 && media < 7)
   {
-    std::cout << "Aluno com media " << media << " => EXAME!" << std::endl;
+    std::cout << "Aluno com média " << media << " => EXAME!" << std::endl;
   }
   else if (media <= 10)
   {
-    std::cout << "Aluno com media " << media << " => APROVADO!" << std::endl;
+    std::cout << "Aluno com média " << media << " => APROVADO!" << std::endl;
   }
   else
   {
-    std::cout << "Media invalida!!" << std::endl;
+    std::cout << "Média invalida!!" << std::endl;
   }
 
   return 0;

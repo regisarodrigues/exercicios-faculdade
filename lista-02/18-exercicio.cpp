@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    std::cout << "Idade invalida!" << std::endl;
+    std::cout << "Idade inválida!" << std::endl;
   }
 
   return 0;

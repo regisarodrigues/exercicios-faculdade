@@ -4,18 +4,18 @@ int main(int argc, char const *argv[])
 {
   float num = 0, num2 = 0;
 
-  std::cout << "Digite primero numero: ";
+  std::cout << "Primero número: ";
   std::cin >> num;
-  std::cout << "Digite o segundo numero: ";
+  std::cout << "Segundo número: ";
   std::cin >> num2;
 
   if (num < num2)
   {
-    std::cout << "Numero menor: " << num << std::endl;
+    std::cout << "Número menor: " << num << std::endl;
   }
   else
   {
-    std::cout << "Numero menor: " << num2 << std::endl;
+    std::cout << "Número menor: " << num2 << std::endl;
   }
 
   return 0;

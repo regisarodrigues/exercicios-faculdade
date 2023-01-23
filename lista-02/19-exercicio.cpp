@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
   float altura = 0, pesoIdesal = 0;
   char sexo;
 
-  std::cout << "Digite a sua altura: ";
+  std::cout << "Digite a altura: ";
   std::cin >> altura;
   std::cout << "Digite (M)asculino ou (F)eminino: ";
   std::cin >> sexo;
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     pesoIdesal = (62.1 * altura) - 44.7;
     break;
   default:
-    std::cout << "Dados invalidos!";
+    std::cout << "Dados inválidos!";
     break;
   }
 

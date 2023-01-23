@@ -7,9 +7,9 @@ int main(int argc, char const *argv[])
   int horas = 0;
   std::string msg;
 
-  std::cout << "Numero de horas extras: ";
+  std::cout << "Número de horas extras: ";
   std::cin >> qtdHoraExtra;
-  std::cout << "Numero de horas faltou do trabalho: ";
+  std::cout << "Número de horas faltou do trabalho: ";
   std::cin >> qtdHorasFalta;
 
   horas = qtdHoraExtra - ((float)2 / 3) * qtdHorasFalta;
@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
   }
   else
   {
-    msg = "NAO GANHOU GRATIFICACAO.";
+    msg = "NÃO GANHOU GRATIFICAÇÃO.";
   }
 
   std::cout << msg << "\n";

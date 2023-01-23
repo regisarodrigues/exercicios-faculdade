@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
   float custoAuto = 0, valorConsumidor = 0;
 
-  std::cout << "Valor custo de fabricacao do automovel R$ ";
+  std::cout << "Valor custo, fabricação automóvel R$ ";
   std::cin >> custoAuto;
 
   if (custoAuto <= 12000)
@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     valorConsumidor = custoAuto + (custoAuto * 0.15) + (custoAuto * 0.20);
   }
 
-  std::cout << std::fixed << std::setprecision(2) << "Valor final automovel R$ " << valorConsumidor << std::endl;
+  std::cout << std::fixed << std::setprecision(2) << "Valor final automóvel R$ " << valorConsumidor << std::endl;
 
   return 0;
 }

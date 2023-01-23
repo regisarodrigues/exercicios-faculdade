@@ -5,7 +5,7 @@ int main(int argc, char const *argv[])
 {
   float salario = 0, valAlmento = 0, salNovo = 0;
 
-  std::cout << "Valor do salario atual R$ ";
+  std::cout << "Valor salário mínimo R$ ";
   std::cin >> salario;
 
   if (salario <= 300)
@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     salNovo = salario + valAlmento;
   }
 
-  std::cout << std::fixed << std::setprecision(2) << "Valor do aumento R$ " << valAlmento << "\nSalario com novo aumento R$ " << salNovo << std::endl;
+  std::cout << std::fixed << std::setprecision(2) << "Valor aumento R$ " << valAlmento << "\nSalário com aumento R$ " << salNovo << std::endl;
 
   return 0;
 }
